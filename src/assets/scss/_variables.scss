@@ -1,0 +1,29 @@
+// Define main color pallette
+$black: hsla(0, 0%, 20%);
+$white: #76a1d1;
+$accent: hsl(0, 0%, 25%);
+
+// Text color values
+$text-primary: $black;
+$text-accent: $accent;
+
+// Heading sizes
+$h1-size: 20vw;
+$h2-size: 14vw;
+$h3-size: 10vw;
+$h4-size: 6vw;
+$h5-size: 3vw;
+
+// Font sizes
+$text-xs: 0.5vw;
+$text-sm: 0.8vw;
+$text-base: 1vw;
+$text-md: 1.1vw;
+$text-lg: 1.2vw;
+$text-xl: 1.5vw;
+$text-2xl: 2vw;
+$text-3xl: 3vw;
+$text-4xl: 4vw;
+
+// Font family
+$font-family: "DM Sans", sans-serif;

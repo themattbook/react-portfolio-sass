@@ -1,0 +1,68 @@
+// Padding
+.p-1 {
+    padding: 0.25rem;
+}
+.p-2 {
+    padding: 0.5rem;
+}
+.p-3 {
+    padding: 0.75rem;
+}
+.p-4 {
+    padding: 1rem;
+}
+.p-5 {
+    padding: 1.25rem;
+}
+.p-6 {
+    padding: 1.5rem;
+}
+
+// Margins
+.mt-1 {
+    margin-top: 0.25rem;
+}
+.mt-3 {
+    margin-top: 0.75rem;
+}
+.mt-5 {
+    margin-top: 1.25rem;
+}
+.mr-auto {
+    margin-right: auto;
+}
+.ml-auto {
+    margin-left: auto;
+}
+
+// Width
+.w-half {
+    width: 50%;
+}
+.w-full {
+    width: 100%;
+}
+
+// Responsive version of w-half
+.responsive-half {
+    width: 50%;
+}
+
+// Media queries for smaller screens
+@media screen and (max-width: 1366px) {
+    .responsive-half {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .responsive-half {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .responsive-half {
+        width: 100%;
+    }
+}

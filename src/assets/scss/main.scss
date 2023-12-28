@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,700&display=swap");
+@import "variables";
+@import "typography";
+@import "spacing";
+@import "mixins";
+
+* {
+    color: $text-primary;
+    background-color: $white;
+    font-family: $font-family;
+}
+
+main {
+    @include flexRow;
+}
+
+.button {
+    @include button;
+}
+
+.hero-button {
+    @include ctaButton;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}

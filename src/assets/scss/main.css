@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,700&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 20vw;
+}
+@media screen and (max-width: 1366px) {
+  h1 {
+    font-size: calc(20vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: calc(20vw * 3);
+  }
+}
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: calc(20vw * 3);
+  }
+}
+
+h2 {
+  font-size: 14vw;
+}
+@media screen and (max-width: 1366px) {
+  h2 {
+    font-size: calc(14vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: calc(14vw * 3);
+  }
+}
+@media screen and (max-width: 576px) {
+  h2 {
+    font-size: calc(14vw * 3);
+  }
+}
+
+h3 {
+  font-size: 10vw;
+}
+@media screen and (max-width: 1366px) {
+  h3 {
+    font-size: calc(10vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: calc(10vw * 3);
+  }
+}
+@media screen and (max-width: 576px) {
+  h3 {
+    font-size: calc(10vw * 3);
+  }
+}
+
+h4 {
+  font-size: 6vw;
+}
+@media screen and (max-width: 1366px) {
+  h4 {
+    font-size: calc(6vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: calc(6vw * 3);
+  }
+}
+@media screen and (max-width: 576px) {
+  h4 {
+    font-size: calc(6vw * 3);
+  }
+}
+
+h5 {
+  font-size: 3vw;
+}
+@media screen and (max-width: 1366px) {
+  h5 {
+    font-size: calc(3vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  h5 {
+    font-size: calc(3vw * 3);
+  }
+}
+@media screen and (max-width: 576px) {
+  h5 {
+    font-size: calc(3vw * 3);
+  }
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.text-base {
+  font-size: 1vw;
+}
+@media screen and (max-width: 1366px) {
+  .text-base {
+    font-size: calc(1vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .text-base {
+    font-size: calc(1vw * 3);
+  }
+}
+@media screen and (max-width: 576px) {
+  .text-base {
+    font-size: calc(1vw * 3);
+  }
+}
+
+.text-xs {
+  font-size: 0.5vw;
+}
+@media screen and (max-width: 1366px) {
+  .text-xs {
+    font-size: calc(0.5vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .text-xs {
+    font-size: calc(0.5vw * 3);
+  }
+}
+@media screen and (max-width: 576px) {
+  .text-xs {
+    font-size: calc(0.5vw * 3);
+  }
+}
+
+.text-sm {
+  font-size: 0.8vw;
+}
+@media screen and (max-width: 1366px) {
+  .text-sm {
+    font-size: calc(0.8vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .text-sm {
+    font-size: calc(0.8vw * 3);
+  }
+}
+@media screen and (max-width: 576px) {
+  .text-sm {
+    font-size: calc(0.8vw * 3);
+  }
+}
+
+.text-md {
+  font-size: 1.1vw;
+}
+@media screen and (max-width: 1366px) {
+  .text-md {
+    font-size: calc(1.1vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .text-md {
+    font-size: calc(1.1vw * 3);
+  }
+}
+@media screen and (max-width: 576px) {
+  .text-md {
+    font-size: calc(1.1vw * 3);
+  }
+}
+
+.text-lg {
+  font-size: 1.2vw;
+}
+@media screen and (max-width: 1366px) {
+  .text-lg {
+    font-size: calc(1.2vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .text-lg {
+    font-size: calc(1.2vw * 3);
+  }
+}
+@media screen and (max-width: 576px) {
+  .text-lg {
+    font-size: calc(1.2vw * 3);
+  }
+}
+
+.text-xl {
+  font-size: 1.5vw;
+}
+@media screen and (max-width: 1366px) {
+  .text-xl {
+    font-size: calc(1.5vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .text-xl {
+    font-size: calc(1.5vw * 3);
+  }
+}
+@media screen and (max-width: 576px) {
+  .text-xl {
+    font-size: calc(1.5vw * 3);
+  }
+}
+
+.text-2xl {
+  font-size: 2vw;
+}
+@media screen and (max-width: 1366px) {
+  .text-2xl {
+    font-size: calc(2vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .text-2xl {
+    font-size: calc(2vw * 3);
+  }
+}
+@media screen and (max-width: 576px) {
+  .text-2xl {
+    font-size: calc(2vw * 3);
+  }
+}
+
+.text-3xl {
+  font-size: 3vw;
+}
+@media screen and (max-width: 1366px) {
+  .text-3xl {
+    font-size: calc(3vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .text-3xl {
+    font-size: calc(3vw * 3);
+  }
+}
+@media screen and (max-width: 576px) {
+  .text-3xl {
+    font-size: calc(3vw * 3);
+  }
+}
+
+.text-4xl {
+  font-size: 4vw;
+}
+@media screen and (max-width: 1366px) {
+  .text-4xl {
+    font-size: calc(4vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .text-4xl {
+    font-size: calc(4vw * 3);
+  }
+}
+@media screen and (max-width: 576px) {
+  .text-4xl {
+    font-size: calc(4vw * 3);
+  }
+}
+
+.secondary {
+  color: hsl(0, 0%, 25%);
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-extralight {
+  font-weight: 200;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.responsive-half {
+  width: 50%;
+}
+
+@media screen and (max-width: 1366px) {
+  .responsive-half {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .responsive-half {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .responsive-half {
+    width: 100%;
+  }
+}
+* {
+  color: hsl(0, 0%, 20%);
+  background-color: #76a1d1;
+  font-family: "DM Sans", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  background-color: hsl(0, 0%, 20%);
+  color: #76a1d1;
+  border: 0px;
+}
+
+.hero-button {
+  background-color: hsl(0, 0%, 20%);
+  color: #76a1d1;
+  border: 0px;
+  font-weight: 700;
+  padding: 1.5rem;
+  border-radius: 9999px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}/*# sourceMappingURL=main.css.map */
