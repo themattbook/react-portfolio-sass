@@ -3,7 +3,7 @@
 @import "typography";
 @import "spacing";
 @import "mixins";
-@import "timeline";
+@import "resume";
 
 * {
     color: $text-primary;
@@ -17,7 +17,6 @@
 main {
     display: flex;
     flex-direction: row;
-    position: relative;
 }
 
 .button {
@@ -30,8 +29,6 @@ main {
 
 .hero-img {
     width: 50%;
-    position: absolute;
-    bottom: 0;
 }
 
 .rounded-full {
@@ -39,23 +36,12 @@ main {
 }
 
 // Media queries for smaller screens
-@media only screen and (max-width: 1366px) {
-    main {
-        flex-direction: column;
-    }
-    .hero-img {
-        width: 100%;
-        position: static;
-        transform: none;
-    }
-}
-
 @media only screen and (max-width: 768px) {
     main {
         flex-direction: column;
     }
     .hero-img {
-        width: 100%;
+        width: 20%;
         position: static;
         transform: none;
     }
@@ -66,7 +52,7 @@ main {
         flex-direction: column;
     }
     .hero-img {
-        width: 100%;
+        width: 20%;
         position: static;
         transform: none;
     }

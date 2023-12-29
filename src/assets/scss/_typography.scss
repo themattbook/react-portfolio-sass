@@ -12,11 +12,11 @@
     }
 
     @media screen and (max-width: 768px) {
-        font-size: calc(#{$size} * 3);
+        font-size: calc(#{$size} * 2);
     }
 
     @media screen and (max-width: 576px) {
-        font-size: calc(#{$size} * 3);
+        font-size: calc(#{$size} * 2);
     }
 }
 
@@ -24,9 +24,11 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
     @include noPadding();
     font-weight: 700;
+    line-height: 1;
 }
 
 h1 {
@@ -47,6 +49,9 @@ h4 {
 
 h5 {
     @include fontSize($h5-size);
+}
+h6 {
+    @include fontSize($h6-size);
 }
 
 p {
@@ -95,6 +100,10 @@ p {
 
 .accent {
     color: $text-accent;
+}
+
+.compliment {
+    color: $text-compliment;
 }
 
 .font-bold {

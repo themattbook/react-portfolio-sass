@@ -3,10 +3,12 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 700;
+  line-height: 1;
 }
 
 h1 {
@@ -19,12 +21,12 @@ h1 {
 }
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: calc(20vw * 3);
+    font-size: calc(20vw * 2);
   }
 }
 @media screen and (max-width: 576px) {
   h1 {
-    font-size: calc(20vw * 3);
+    font-size: calc(20vw * 2);
   }
 }
 
@@ -38,12 +40,12 @@ h2 {
 }
 @media screen and (max-width: 768px) {
   h2 {
-    font-size: calc(14vw * 3);
+    font-size: calc(14vw * 2);
   }
 }
 @media screen and (max-width: 576px) {
   h2 {
-    font-size: calc(14vw * 3);
+    font-size: calc(14vw * 2);
   }
 }
 
@@ -57,12 +59,12 @@ h3 {
 }
 @media screen and (max-width: 768px) {
   h3 {
-    font-size: calc(10vw * 3);
+    font-size: calc(10vw * 2);
   }
 }
 @media screen and (max-width: 576px) {
   h3 {
-    font-size: calc(10vw * 3);
+    font-size: calc(10vw * 2);
   }
 }
 
@@ -76,12 +78,12 @@ h4 {
 }
 @media screen and (max-width: 768px) {
   h4 {
-    font-size: calc(6vw * 3);
+    font-size: calc(6vw * 2);
   }
 }
 @media screen and (max-width: 576px) {
   h4 {
-    font-size: calc(6vw * 3);
+    font-size: calc(6vw * 2);
   }
 }
 
@@ -95,12 +97,31 @@ h5 {
 }
 @media screen and (max-width: 768px) {
   h5 {
-    font-size: calc(3vw * 3);
+    font-size: calc(3vw * 2);
   }
 }
 @media screen and (max-width: 576px) {
   h5 {
-    font-size: calc(3vw * 3);
+    font-size: calc(3vw * 2);
+  }
+}
+
+h6 {
+  font-size: 2vw;
+}
+@media screen and (max-width: 1366px) {
+  h6 {
+    font-size: calc(2vw * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  h6 {
+    font-size: calc(2vw * 2);
+  }
+}
+@media screen and (max-width: 576px) {
+  h6 {
+    font-size: calc(2vw * 2);
   }
 }
 
@@ -119,12 +140,12 @@ p {
 }
 @media screen and (max-width: 768px) {
   .text-base {
-    font-size: calc(1vw * 3);
+    font-size: calc(1vw * 2);
   }
 }
 @media screen and (max-width: 576px) {
   .text-base {
-    font-size: calc(1vw * 3);
+    font-size: calc(1vw * 2);
   }
 }
 
@@ -138,12 +159,12 @@ p {
 }
 @media screen and (max-width: 768px) {
   .text-xs {
-    font-size: calc(0.5vw * 3);
+    font-size: calc(0.5vw * 2);
   }
 }
 @media screen and (max-width: 576px) {
   .text-xs {
-    font-size: calc(0.5vw * 3);
+    font-size: calc(0.5vw * 2);
   }
 }
 
@@ -157,12 +178,12 @@ p {
 }
 @media screen and (max-width: 768px) {
   .text-sm {
-    font-size: calc(0.8vw * 3);
+    font-size: calc(0.8vw * 2);
   }
 }
 @media screen and (max-width: 576px) {
   .text-sm {
-    font-size: calc(0.8vw * 3);
+    font-size: calc(0.8vw * 2);
   }
 }
 
@@ -176,12 +197,12 @@ p {
 }
 @media screen and (max-width: 768px) {
   .text-md {
-    font-size: calc(1.1vw * 3);
+    font-size: calc(1.1vw * 2);
   }
 }
 @media screen and (max-width: 576px) {
   .text-md {
-    font-size: calc(1.1vw * 3);
+    font-size: calc(1.1vw * 2);
   }
 }
 
@@ -195,12 +216,12 @@ p {
 }
 @media screen and (max-width: 768px) {
   .text-lg {
-    font-size: calc(1.2vw * 3);
+    font-size: calc(1.2vw * 2);
   }
 }
 @media screen and (max-width: 576px) {
   .text-lg {
-    font-size: calc(1.2vw * 3);
+    font-size: calc(1.2vw * 2);
   }
 }
 
@@ -214,12 +235,12 @@ p {
 }
 @media screen and (max-width: 768px) {
   .text-xl {
-    font-size: calc(1.5vw * 3);
+    font-size: calc(1.5vw * 2);
   }
 }
 @media screen and (max-width: 576px) {
   .text-xl {
-    font-size: calc(1.5vw * 3);
+    font-size: calc(1.5vw * 2);
   }
 }
 
@@ -233,12 +254,12 @@ p {
 }
 @media screen and (max-width: 768px) {
   .text-2xl {
-    font-size: calc(2vw * 3);
+    font-size: calc(2vw * 2);
   }
 }
 @media screen and (max-width: 576px) {
   .text-2xl {
-    font-size: calc(2vw * 3);
+    font-size: calc(2vw * 2);
   }
 }
 
@@ -252,12 +273,12 @@ p {
 }
 @media screen and (max-width: 768px) {
   .text-3xl {
-    font-size: calc(3vw * 3);
+    font-size: calc(3vw * 2);
   }
 }
 @media screen and (max-width: 576px) {
   .text-3xl {
-    font-size: calc(3vw * 3);
+    font-size: calc(3vw * 2);
   }
 }
 
@@ -271,12 +292,12 @@ p {
 }
 @media screen and (max-width: 768px) {
   .text-4xl {
-    font-size: calc(4vw * 3);
+    font-size: calc(4vw * 2);
   }
 }
 @media screen and (max-width: 576px) {
   .text-4xl {
-    font-size: calc(4vw * 3);
+    font-size: calc(4vw * 2);
   }
 }
 
@@ -286,6 +307,10 @@ p {
 
 .accent {
   color: hsl(198, 67%, 34%);
+}
+
+.compliment {
+  color: hsl(18, 67%, 34%);
 }
 
 .font-bold {
@@ -364,6 +389,10 @@ p {
   margin-bottom: 1.25rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .mr-auto {
   margin-right: auto;
 }
@@ -389,7 +418,11 @@ p {
 }
 
 .min-h-screen {
-  min-width: 100vh;
+  min-height: 100vh;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .w-half {
@@ -398,6 +431,10 @@ p {
 
 .w-full {
   width: 100%;
+}
+
+.w-75 {
+  width: 75%;
 }
 
 .responsive-half {
@@ -429,33 +466,34 @@ p {
   justify-content: center;
 }
 
-@media only screen and (max-width: 1366px) {
-  .responsive-half {
-    width: 100%;
-  }
-  .left-half.centered {
-    align-items: center;
-    justify-content: center;
-  }
-}
 @media only screen and (max-width: 768px) {
   .responsive-half {
     width: 100%;
   }
-  .left-half.centered {
-    align-items: center;
-    justify-content: center;
+  .w-half {
+    width: 100%;
+  }
+  .w-75 {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 576px) {
   .responsive-half {
     width: 100%;
   }
-  .left-half.centered {
-    align-items: center;
-    justify-content: center;
+  .w-half {
+    width: 100%;
+  }
+  .w-75 {
+    width: 100%;
   }
 }
+.list-item {
+  border-left: 5px solid hsl(18, 67%, 34%);
+  list-style: none;
+  padding-left: 8px;
+}
+
 * {
   color: hsl(0, 0%, 20%);
   background-color: hsl(0, 0%, 100%);
@@ -468,7 +506,6 @@ p {
 main {
   display: flex;
   flex-direction: row;
-  position: relative;
 }
 
 .button {
@@ -488,30 +525,18 @@ main {
 
 .hero-img {
   width: 50%;
-  position: absolute;
-  bottom: 0;
 }
 
 .rounded-full {
   border-radius: 9999px;
 }
 
-@media only screen and (max-width: 1366px) {
-  main {
-    flex-direction: column;
-  }
-  .hero-img {
-    width: 100%;
-    position: static;
-    transform: none;
-  }
-}
 @media only screen and (max-width: 768px) {
   main {
     flex-direction: column;
   }
   .hero-img {
-    width: 100%;
+    width: 20%;
     position: static;
     transform: none;
   }
@@ -521,7 +546,7 @@ main {
     flex-direction: column;
   }
   .hero-img {
-    width: 100%;
+    width: 20%;
     position: static;
     transform: none;
   }

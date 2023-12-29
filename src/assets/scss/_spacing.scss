@@ -46,6 +46,9 @@
 .mb-5 {
     margin-bottom: 1.25rem;
 }
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
 .mr-auto {
     margin-right: auto;
 }
@@ -67,15 +70,21 @@
     height: 100%;
 }
 .min-h-screen {
-    min-width: 100vh;
+    min-height: 100vh;
 }
 
 // Width
+.w-screen {
+    width: 100vw;
+}
 .w-half {
     width: 50%;
 }
 .w-full {
     width: 100%;
+}
+.w-75 {
+    width: 75%;
 }
 
 // Responsive version of w-half
@@ -109,38 +118,34 @@
 }
 
 // Media queries for smaller screens
-@media only screen and (max-width: 1366px) {
-    .responsive-half {
-        width: 100%;
-    }
-    .left-half {
-        &.centered {
-            align-items: center;
-            justify-content: center;
-        }
-    }
-}
-
 @media only screen and (max-width: 768px) {
     .responsive-half {
         width: 100%;
     }
-    .left-half {
-        &.centered {
-            align-items: center;
-            justify-content: center;
-        }
+    .w-half {
+        width: 100%;
     }
+    .w-75 {
+        width: 100%;
+    }
+    // .is-center {
+    //     align-items: start;
+    //     justify-content: start;
+    // }
 }
 
 @media only screen and (max-width: 576px) {
     .responsive-half {
         width: 100%;
     }
-    .left-half {
-        &.centered {
-            align-items: center;
-            justify-content: center;
-        }
+    .w-half {
+        width: 100%;
     }
+    .w-75 {
+        width: 100%;
+    }
+    // .is-center {
+    //     align-items: start;
+    //     justify-content: start;
+    // }
 }
