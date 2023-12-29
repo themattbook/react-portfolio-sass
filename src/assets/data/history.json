@@ -1,0 +1,26 @@
+[
+    {
+        "year": "2022 - 2023",
+        "company": "DFN Freight",
+        "title": "Frontend Developer",
+        "url": "https://www.dfnfreight.com/",
+        "desc": "As a Frontend Developer, I was brought into the company as a contractor to build a functional frontend SPA from scratch, working with the company CTO in determining the technology and methodology used to carry a product to MVP.",
+        "technology": "Vue 3, TypeScript, Pinia, Prisma, NestJS, Jest, Cypress, Amazon Cognito, Amazon EB, SonarCloud, and Bitbucket."
+    },
+    {
+        "year": "2019 - 2022",
+        "company": "OpenTeknik",
+        "title": "FullStack Engineer",
+        "url": "https://www.openteknik.com/",
+        "desc": "As a Fullstack Developer, I worked with the creators of Open Source Social Network to improve their company website as well as a social media framework client for customers.",
+        "technology": "React, HTML, CSS, Software as a Service (SaaS)"
+    },
+    {
+        "year": "2015 - 2019",
+        "company": "GetBusy LLC",
+        "title": "FullStack Engineer",
+        "url": "",
+        "desc": "Designed and co-developed a social media automation platform using Open Source Social Network, React, Node, Express, Bootstrap, HTML/CSS, and more using Agile methodology to take the product from conception to production.",
+        "technology": "React, MySQL, JavaScript, Front-End Development, HTML, CSS"
+    }
+]

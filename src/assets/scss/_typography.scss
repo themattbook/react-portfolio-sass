@@ -1,7 +1,7 @@
 @mixin noPadding() {
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 1;
+    // line-height: 1;
 }
 
 @mixin fontSize($size) {
@@ -90,6 +90,10 @@ p {
 }
 
 .secondary {
+    color: $text-secondary;
+}
+
+.accent {
     color: $text-accent;
 }
 

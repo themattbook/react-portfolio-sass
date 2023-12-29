@@ -3,15 +3,21 @@
 @import "typography";
 @import "spacing";
 @import "mixins";
+@import "timeline";
 
 * {
     color: $text-primary;
     background-color: $white;
     font-family: $font-family;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 main {
-    @include flexRow;
+    display: flex;
+    flex-direction: row;
+    position: relative;
 }
 
 .button {
@@ -22,6 +28,46 @@ main {
     @include ctaButton;
 }
 
+.hero-img {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
 .rounded-full {
     border-radius: 9999px;
+}
+
+// Media queries for smaller screens
+@media only screen and (max-width: 1366px) {
+    main {
+        flex-direction: column;
+    }
+    .hero-img {
+        width: 100%;
+        position: static;
+        transform: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    .hero-img {
+        width: 100%;
+        position: static;
+        transform: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    main {
+        flex-direction: column;
+    }
+    .hero-img {
+        width: 100%;
+        position: static;
+        transform: none;
+    }
 }
