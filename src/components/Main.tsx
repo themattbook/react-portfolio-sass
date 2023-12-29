@@ -1,7 +1,7 @@
 function Main() {
     return (
-        <main className="flex min-h-screen p-4 is-center">
-            <div className="ml-auto w-75 right-half h-full">
+        <main className="flex min-h-screen p-4">
+            <div className="ml-auto w-75 h-full">
                 <h4 className="mt-5">
                     I&apos;m Matt. I&apos;m a FullStack Developer who loves
                     UI/UX. I specialize in React and Vue, TypeScript, Sass, and

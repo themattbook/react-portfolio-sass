@@ -4,7 +4,7 @@
         "company": "DFN Freight",
         "title": "Frontend Developer",
         "url": "https://www.dfnfreight.com/",
-        "desc": "As a Frontend Developer, I was brought into the company as a contractor to build a functional frontend SPA from scratch, working with the company CTO in determining the technology and methodology used to carry a product to MVP.",
+        "desc": "As a Frontend Developer, I was contracted to build a functional SPA from scratch, working with the company CTO to go from 0 to MVP.",
         "technology": "Vue 3, TypeScript, Pinia, Prisma, NestJS, Jest, Cypress, Amazon Cognito, Amazon EB, SonarCloud, and Bitbucket."
     },
     {

@@ -2,13 +2,15 @@ import history from "../assets/data/history.json";
 
 function Resume() {
     return (
-        <section className="flex min-h-screen is-center mt-5 p-4">
-            <div className="h-full w-75">
-                <h6>Experience</h6>
-                <ul className="flex flex-col mt-5">
+        <section className="flex min-h-screen w-full is-center mt-5 p-4">
+            <div className="h-full w-full">
+                <ul className="flex flex-col is-center">
                     {history.map((job, index) => {
                         return (
-                            <li key={index} className="mb-6 list-item">
+                            <li
+                                key={index}
+                                className="mr-3 mt-5 list-item w-75"
+                            >
                                 <p className="font-bold">{job.year}</p>
                                 <h5>{job.company}</h5>
                                 <p className="mt-1">
