@@ -1,10 +1,8 @@
 import Main from "./components/Main";
-import Resume from "./components/Resume";
 function App() {
     return (
-        <div className="flex flex-col">
+        <div>
             <Main />
-            <Resume />
         </div>
     );
 }

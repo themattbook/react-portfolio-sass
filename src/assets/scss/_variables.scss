@@ -1,35 +1,27 @@
-// Define main color pallette
-$black: hsla(0, 0%, 20%);
-$white: hsl(0, 0%, 100%);
-// $white: hsl(40, 32%, 91%);
-$secondary: hsl(0, 0%, 44%);
-$accent: hsl(198, 67%, 34%);
-$accent-light: hsl(18, 67%, 34%);
+// Colors
+$dark: #3d3d3d;
+$light: #fff;
 
-// Text color values
-$text-primary: $black;
-$text-secondary: $secondary;
-$text-accent: $accent;
-$text-compliment: $accent-light;
+// Spacing
+$base-padding: 1rem;
+$base-margin: 0.75rem;
 
-// Heading sizes
-$h1-size: 20vw;
-$h2-size: 14vw;
-$h3-size: 10vw;
-$h4-size: 6vw;
-$h5-size: 3vw;
-$h6-size: 2vw;
+// Borders
+$base-border-thickness: 1.5px;
+$base-border-radius: 20px;
 
-// Font sizes
-$text-xs: 0.5vw;
-$text-sm: 0.8vw;
-$text-base: 1vw;
-$text-md: 1.1vw;
-$text-lg: 1.2vw;
-$text-xl: 1.5vw;
-$text-2xl: 2vw;
-$text-3xl: 3vw;
-$text-4xl: 4vw;
+// Box Shadow
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 
-// Font family
-$font-family: "DM Sans", sans-serif;
+// Font Sizes
+$base-font-size: 1rem;
+$font-size-xs: $base-font-size * 0.5;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-2xl: $base-font-size * 3;
+$font-size-3xl: $base-font-size * 4;
+$font-size-4xl: $base-font-size * 5;
+$font-size-5xl: $base-font-size * 6;
+$font-size-6xl: $base-font-size * 7;
+$font-size-7xl: $base-font-size * 8;

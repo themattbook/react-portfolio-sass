@@ -1,23 +1,63 @@
 function Main() {
     return (
-        <main className="flex min-h-screen p-4">
-            <div className="ml-auto w-75 h-full">
-                <h4 className="mt-5">
-                    I&apos;m Matt. I&apos;m a FullStack Developer who loves
-                    UI/UX. I specialize in React and Vue, TypeScript, Sass, and
-                    Tailwindcss.
-                </h4>
-                <p className="text-2xl pt-5">
-                    I enjoy simplistic and modern, yet minimal design. Since
-                    discovering what Sass can do, I&apos;ve started migrating
-                    away from Tailwindcss and into more maintainable digs.
-                </p>
-                <p className="text-2xl pt-5">
-                    Below you will find an abridged resume as well as links to
-                    some of the standard places someone in your position may be
-                    inclined to look. If you&apos;re interested in working with
-                    me, please reach out. I love meeting new people.
-                </p>
+        <main className="container">
+            <div className="row gap-2">
+                <div className="col-12-xs col-5-lg"></div>
+                <div className="col-12-xs col-7-lg">
+                    <h2 className="mt-5">
+                        I&apos;m Matt. I&apos;m a FullStack Developer who loves
+                        UI/UX. I specialize in React and Vue, TypeScript, Sass,
+                        and Tailwind.
+                    </h2>
+                </div>
+            </div>
+            <div className="row justify-flex-end mt-6">
+                <div className="col-12-xs col-7-lg">
+                    <div className="row gap-2 justify-flex-end">
+                        <div className="col-12-xs col-6-sm">
+                            <div className="card">
+                                <p className="card-title">Lorem</p>
+                                <p className="card-body">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Consequuntur, delectus!
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-12-xs col-6-sm">
+                            <div className="card">
+                                <p className="card-title">Ipsum</p>
+                                <p className="card-body">
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Cumque, fugiat?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="row justify-flex-end">
+                <div className="col-12-xs col-7-lg">
+                    <div className="row gap-2 justify-flex-end">
+                        <div className="col-12-xs col-6-sm">
+                            <div className="card">
+                                <p className="card-title">Dolar</p>
+                                <p className="card-body">
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Expedita, dolor!
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-12-xs col-6-sm">
+                            <div className="card">
+                                <p className="card-title">Sit</p>
+                                <p className="card-body">
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Expedita, dolor!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
     );
