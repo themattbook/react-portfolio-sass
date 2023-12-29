@@ -4,17 +4,18 @@
     display: block;
     padding: $base-padding;
     border-top: $base-border-thickness solid #000000;
-    color: $dark;
+    color: $light;
 
     .card-title {
         font-size: $font-size-lg;
         font-weight: bold;
         padding-bottom: $base-padding;
+        color: $light;
     }
 
     .card-body {
         font-size: $base-font-size;
-        color: hsl(0, 0%, 47%);
+        color: $black;
 
         a {
             text-decoration: underline;

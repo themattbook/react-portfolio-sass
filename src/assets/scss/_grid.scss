@@ -23,6 +23,14 @@ $layout-values: flex-start, flex-end, center, space-between, space-around,
     flex-flow: row wrap;
 }
 
+// Height
+.height-screen {
+    height: 100vh;
+}
+.height-full {
+    height: 100%;
+}
+
 // Grip gaps
 @each $key, $value in $grid-gaps {
     .gap-#{$key} > * {
@@ -38,6 +46,13 @@ $layout-values: flex-start, flex-end, center, space-between, space-around,
 @each $value in $layout-values {
     .justify-#{$value} {
         justify-content: $value;
+    }
+}
+
+// Align content classes
+@each $value in $layout-values {
+    .align-#{$value} {
+        align-content: $value;
     }
 }
 
