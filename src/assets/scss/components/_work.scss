@@ -1,0 +1,36 @@
+@use "sass:math";
+
+.work {
+    display: block;
+    padding: $base-padding;
+    color: $black;
+
+    .work-year {
+        font-weight: bold;
+        color: $black;
+        padding-bottom: 0.5rem;
+    }
+
+    .work-title {
+        font-size: $font-size-lg;
+        font-weight: bold;
+        padding-bottom: 0.25rem;
+        color: $black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .work-body {
+        font-size: $base-font-size;
+        color: $black;
+        a {
+            text-decoration: underline;
+        }
+    }
+
+    .work-tech {
+        font-size: $font-size-sm;
+        margin-top: 0.5rem;
+    }
+}

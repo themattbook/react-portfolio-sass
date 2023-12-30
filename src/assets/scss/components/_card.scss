@@ -3,20 +3,22 @@
 .card {
     display: block;
     padding: $base-padding;
-    border-top: $base-border-thickness solid #000000;
-    color: $light;
+    border-top: $base-border-thickness solid $cream;
+    color: $cream;
 
     .card-title {
         font-size: $font-size-lg;
         font-weight: bold;
         padding-bottom: $base-padding;
-        color: $light;
+        color: $cream;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     .card-body {
         font-size: $base-font-size;
-        color: $black;
-
+        color: $light;
         a {
             text-decoration: underline;
         }

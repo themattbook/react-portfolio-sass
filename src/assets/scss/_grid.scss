@@ -52,7 +52,7 @@ $layout-values: flex-start, flex-end, center, space-between, space-around,
 // Align content classes
 @each $value in $layout-values {
     .align-#{$value} {
-        align-content: $value;
+        align-items: $value;
     }
 }
 

@@ -2,15 +2,18 @@
 
 // Reset styles
 * {
-    color: $light;
     margin: 0;
     padding: 0;
-    background-color: $orange;
 }
 
 body {
     font-family: "Outfit", sans-serif;
     font-weight: 400;
+    font-size: $base-font-size;
+}
+
+span {
+    font-size: inherit;
 }
 
 ul {
@@ -30,4 +33,50 @@ hr {
 
 img {
     max-width: 100%;
+}
+
+.logo-container {
+    display: none !important;
+    background-image: url("images/logo-black.webp");
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+
+.phrase {
+    color: $accent-color;
+}
+
+.icon > * {
+    fill: $accent-color !important;
+}
+
+.main {
+    background-color: $bg-color;
+    color: $text-color;
+}
+
+.about-me {
+    background-color: $accent-color;
+    color: $bg-color;
+    h4 {
+        color: $cream;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo-container {
+        display: flex !important;
+    }
+}
+
+@media (max-width: 768px) {
+    * {
+        font-size: $base-font-size * 0.9;
+    }
+}
+
+@media (max-width: 576px) {
+    * {
+        font-size: $base-font-size * 0.8;
+    }
 }
