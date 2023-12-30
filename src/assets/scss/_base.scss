@@ -1,15 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=family=Outfit:wght@300;400;700&display=swap");
-
-// Reset styles
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Questrial&display=swap"); // Reset styles
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: "Outfit", sans-serif;
+    font-family: "Questrial", sans-serif;
     font-weight: 400;
     font-size: $base-font-size;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Outfit", sans-serif;
 }
 
 span {
@@ -35,20 +41,13 @@ img {
     max-width: 100%;
 }
 
-.logo-container {
-    display: none !important;
-    background-image: url("logo-black.webp");
-    background-position: center left;
-    background-repeat: no-repeat;
-}
-
 .phrase {
     color: $accent-color;
 }
 
-.icon > * {
-    fill: $accent-color !important;
-}
+// .icon > * {
+//     fill: $accent-color !important;
+// }
 
 .main {
     background-color: $bg-color;
@@ -63,19 +62,22 @@ img {
     }
 }
 
-@media (min-width: 1200px) {
-    .logo-container {
-        display: flex !important;
+.text-center {
+    text-align: center;
+}
+
+@include max-breakpoint(1200px) {
+    .second {
+        display: none !important;
     }
 }
 
-@media (max-width: 650px) {
+@include max-breakpoint(650px) {
     * {
         font-size: $base-font-size * 0.8;
     }
 }
-
-@media (max-width: 576px) {
+@include max-breakpoint(576px) {
     * {
         font-size: $base-font-size * 0.7;
     }

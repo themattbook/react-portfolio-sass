@@ -1,12 +1,12 @@
 @use "sass:math";
 
 .card {
-    display: block;
     padding: $base-padding;
-    border-top: $base-border-thickness solid $cream;
+    // border-top: $base-border-thickness solid $cream;
     color: $cream;
 
     .card-title {
+        font-family: "Outfit", sans-serif;
         font-size: $font-size-lg;
         font-weight: bold;
         padding-bottom: $base-padding;
@@ -22,11 +22,5 @@
         a {
             text-decoration: underline;
         }
-    }
-}
-
-@media (max-width: 576px) {
-    .card {
-        display: none;
     }
 }

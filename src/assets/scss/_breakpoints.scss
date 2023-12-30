@@ -37,8 +37,13 @@ $breakpoints: (
         @content;
     }
 }
-@mixin breakpoint($bp: 0) {
+@mixin min-breakpoint($bp: 0) {
     @media (min-width: $bp) {
+        @content;
+    }
+}
+@mixin max-breakpoint($bp: 0) {
+    @media (max-width: $bp) {
         @content;
     }
 }

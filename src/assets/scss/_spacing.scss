@@ -12,7 +12,7 @@ $margins: (
     $prefix: nth($margin, 1);
     $properties: nth($margin, 2);
 
-    @for $i from 1 through 8 {
+    @for $i from 1 through 15 {
         .#{$prefix}-#{$i} {
             @if type-of($properties) == "list" {
                 @each $property in $properties {
@@ -39,7 +39,7 @@ $paddings: (
     $prefix: nth($padding, 1);
     $properties: nth($padding, 2);
 
-    @for $i from 1 through 8 {
+    @for $i from 1 through 15 {
         .#{$prefix}-#{$i} {
             @if type-of($properties) == "list" {
                 @each $property in $properties {

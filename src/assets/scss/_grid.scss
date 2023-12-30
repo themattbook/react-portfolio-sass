@@ -23,6 +23,14 @@ $layout-values: flex-start, flex-end, center, space-between, space-around,
     flex-flow: row wrap;
     width: 100%;
 }
+.row-col {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    > * {
+        flex-grow: 1;
+    }
+}
 
 // Height
 .height-screen {
@@ -52,7 +60,13 @@ $layout-values: flex-start, flex-end, center, space-between, space-around,
 
 // Align content classes
 @each $value in $layout-values {
-    .align-#{$value} {
+    .align-content-#{$value} {
+        align-content: $value;
+    }
+}
+// Align content classes
+@each $value in $layout-values {
+    .align-items-#{$value} {
         align-items: $value;
     }
 }
