@@ -158,6 +158,11 @@ img {
   color: #e0e2d5;
 }
 
+.fade-in {
+  opacity: 1;
+  transition: opacity 1s ease-in-out; /* Adjust the transition properties as needed */
+}
+
 .projects {
   background-color: #ef291c;
   color: #000009;
@@ -1674,4 +1679,8 @@ img {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 1rem;
+}
+
+.project-type {
+  font-weight: bold;
 }/*# sourceMappingURL=index.css.map */

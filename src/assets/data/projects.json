@@ -1,0 +1,51 @@
+[
+    {
+        "id": 0,
+        "name": "Tornado Tracker",
+        "link": "https://tornadovisualizer.vercel.app/",
+        "code": "https://github.com/themattbook/tornadovisualizer",
+        "type": "Hobby"
+    },
+    {
+        "id": 1,
+        "name": "BOW React Portfolio",
+        "link": "https://react-portfolio-blue-three.vercel.app/",
+        "code": "https://github.com/themattbook/react-portfolio",
+        "type": "Hobby"
+    },
+    {
+        "id": 2,
+        "name": "Express CRUD",
+        "link": "https://github.com/themattbook/express-crud-api",
+        "code": "https://github.com/themattbook/express-crud-api",
+        "type": "Hobby"
+    },
+    {
+        "id": 3,
+        "name": "Todo List",
+        "link": "https://nextjs-todo-list-nine.vercel.app/",
+        "code": "https://github.com/themattbook/nextjs-todo-list",
+        "type": "Hobby"
+    },
+    {
+        "id": 4,
+        "name": "React/Bulma E-Commerce",
+        "link": "https://bulma-template-react.vercel.app/",
+        "code": "https://github.com/themattbook/bulma-template-react",
+        "type": "Professional"
+    },
+    {
+        "id": 5,
+        "name": "DFNX",
+        "link": "https://www.dfnfreight.com/",
+        "code": "https://www.dfnfreight.com/",
+        "type": "Professional"
+    },
+    {
+        "id": 6,
+        "name": "Coupon Capsule",
+        "link": "https://coupon-web.vercel.app/",
+        "code": "https://github.com/themattbook/coupon-web/tree/main/frontend",
+        "type": "Professional"
+    }
+]

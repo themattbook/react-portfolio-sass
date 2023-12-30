@@ -1,58 +1,38 @@
-import { useState, useEffect } from "react";
+import projects from "../assets/data/projects.json";
 
 function Projects() {
-    interface Repo {
-        id: number;
-        name: string;
-        created_at: string;
-        // Add more properties as needed based on the GitHub API response
-    }
-    const [repos, setRepos] = useState<Repo[]>([]);
-
-    useEffect(() => {
-        const fetchRepos = async () => {
-            try {
-                const response = await fetch(
-                    "https://api.github.com/users/themattbook/repos?per_page=8&sort=updated&direction=desc"
-                );
-                if (response.ok) {
-                    const data = await response.json();
-                    setRepos(data);
-                } else {
-                    console.error(
-                        "Error fetching repositories:",
-                        response.statusText
-                    );
-                }
-            } catch (error) {
-                console.error("Error fetching repositories:", error);
-            }
-        };
-
-        fetchRepos();
-    }, []);
-
-    const formatDateString = (dateString: string): string => {
-        const date = new Date(dateString);
-        return date.toLocaleDateString(); // Adjust the format as needed
-    };
     return (
         <div className="projects height-screen">
             <div className="container height-full">
-                <div className="row height-full justify-flex-end align-content-flex-end">
+                <div className="row height-full justify-flex-end align-content-center">
+                    <div className="mb-15">
+                        <h2>Projects</h2>
+                    </div>
                     <div className="col-12-xs col-12-lg">
                         <div className="row">
                             <div className="col-12-xs">
-                                {repos.map((repo) => (
+                                {projects.map((project) => (
                                     <div
                                         className="project-container"
-                                        key={repo.id}
+                                        key={project.id}
                                     >
+                                        <a
+                                            href={project.code}
+                                            target="_blank"
+                                            className="project-type mr-3"
+                                        >
+                                            {project.type} | Code
+                                        </a>
                                         <p className="project-info mr-3">
-                                            {formatDateString(repo.created_at)}
+                                            <a
+                                                href="https://tornadovisualizer.vercel.app/"
+                                                target="_blank"
+                                            >
+                                                {project.link}
+                                            </a>
                                         </p>
                                         <p className="project-name">
-                                            {repo.name}
+                                            {project.name}
                                         </p>
                                     </div>
                                 ))}
