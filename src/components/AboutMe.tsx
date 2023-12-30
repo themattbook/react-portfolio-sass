@@ -2,7 +2,7 @@ function AboutMe() {
     return (
         <div className="about-me height-screen">
             <div className="container height-full">
-                <div className="row height-full gap-1 align-center">
+                <div className="row height-full align-center">
                     <div className="col-12-xs col-4-lg">
                         <h2>Experience</h2>
                     </div>

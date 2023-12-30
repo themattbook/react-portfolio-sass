@@ -20,7 +20,7 @@ function Main() {
     return (
         <div className="main height-screen">
             <main className="container height-full">
-                <div className="row gap-2 height-full align-center">
+                <div className="row height-full align-center">
                     <div className="col-1-xs col-5-lg height-full logo-container"></div>
                     <div className="col-12-xs col-7-lg">
                         <h2 className="mt-5">
