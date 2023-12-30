@@ -1,0 +1,21 @@
+.project-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.project-name {
+    font-family: $questrial;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.project-info {
+    font-family: $outfit;
+    font-weight: 300;
+    font-size: 1rem;
+}

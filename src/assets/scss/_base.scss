@@ -55,15 +55,27 @@ img {
 }
 
 .about-me {
-    background-color: $accent-color;
+    background-color: $cream;
     color: $bg-color;
     h4 {
         color: $cream;
     }
 }
 
+.projects {
+    background-color: $orangered;
+    color: $bg-color;
+    h4 {
+        color: $bg-color;
+    }
+}
+
 .text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 @include max-breakpoint(1200px) {
