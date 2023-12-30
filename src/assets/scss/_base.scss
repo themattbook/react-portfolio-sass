@@ -69,14 +69,14 @@ img {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
     * {
-        font-size: $base-font-size * 0.9;
+        font-size: $base-font-size * 0.8;
     }
 }
 
 @media (max-width: 576px) {
     * {
-        font-size: $base-font-size * 0.8;
+        font-size: $base-font-size * 0.7;
     }
 }

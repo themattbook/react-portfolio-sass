@@ -135,14 +135,14 @@ img {
     display: flex !important;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 650px) {
   * {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 576px) {
   * {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
 .work {
@@ -199,6 +199,11 @@ img {
   text-decoration: underline;
 }
 
+@media (max-width: 576px) {
+  .card {
+    display: none;
+  }
+}
 @media (min-width: 0) {
   .responsive-test {
     background-color: red;
